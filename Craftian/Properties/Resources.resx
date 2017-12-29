@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cBox_AutoLogin" xml:space="preserve">
+    <value>Automatically Login</value>
+  </data>
+  <data name="err_Connectivity_Mojang" xml:space="preserve">
+    <value>We seem to be having trouble reaching Mojang</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="plc_Email" xml:space="preserve">
+    <value>Email..</value>
+  </data>
+  <data name="plc_Password" xml:space="preserve">
+    <value>Password..</value>
+  </data>
+  <data name="prog_Author" xml:space="preserve">
+    <value>Shellcode</value>
+  </data>
+  <data name="prog_Company" xml:space="preserve">
+    <value>Lawlsec</value>
+  </data>
+  <data name="prog_Login_Message" xml:space="preserve">
+    <value>Please wait while we login to your Mojang account..</value>
+  </data>
+  <data name="prog_Login_Title" xml:space="preserve">
+    <value>Logging In</value>
+  </data>
+  <data name="prog_Name" xml:space="preserve">
+    <value>Craftian</value>
+  </data>
+  <data name="prog_Name_Long" xml:space="preserve">
+    <value>Craftian Launcher</value>
+  </data>
+  <data name="str_FailedLogin_Message" xml:space="preserve">
+    <value>We were unable to login to your Mojang account, please check your login details and retry.</value>
+  </data>
+  <data name="str_FailedLogin_Title" xml:space="preserve">
+    <value>Login Failed</value>
+  </data>
+  <data name="str_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="str_Login_Message" xml:space="preserve">
+    <value>Enter your Mojang account details</value>
+  </data>
+  <data name="str_Login_Title" xml:space="preserve">
+    <value>Login to Minecraft</value>
+  </data>
+  <data name="str_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="str_Logout_Message" xml:space="preserve">
+    <value>Are you sure you want to logout of your Mojang account?</value>
+  </data>
+  <data name="str_Logout_Title" xml:space="preserve">
+    <value>Logout of Minecraft</value>
+  </data>
+  <data name="tt_Connection" xml:space="preserve">
+    <value>Mojang Connection</value>
+  </data>
+  <data name="tt_Minecraft_Version" xml:space="preserve">
+    <value>Minecraft Version</value>
+  </data>
+  <data name="sb_DragDrop" xml:space="preserve">
+    <value>Drop your mod on the "Manage Mods" button to install</value>
+  </data>
+  <data name="sb_DragDropTarget" xml:space="preserve">
+    <value>Drop your mod to install</value>
+  </data>
+  <data name="tt_Servers" xml:space="preserve">
+    <value>Browse Servers</value>
+  </data>
+  <data name="tt_ManageMods" xml:space="preserve">
+    <value>Manage Mods</value>
+  </data>
+  <data name="tt_Play" xml:space="preserve">
+    <value>Play Minecraft</value>
+  </data>
+  <data name="abt_JumpServers" xml:space="preserve">
+    <value>Jump Servers are servers that are preconfigured to work with the Craftian launcher to install and configure required mods automatically. This makes it much easier to join modded servers that require client mods. 
+
+When you join a Jump Server Craftian will download and install the required mods then launch Minecraft and directly connect you to the server you chose.
+
+If you are the owner of a modded Minecraft server and would like your server listed here please visit https://craftianmod.com/jump to learn about the process of making your server compatable with Craftian Jump.</value>
+  </data>
+  <data name="abt_JumpServers_Title" xml:space="preserve">
+    <value>About Jump Servers</value>
+  </data>
+</root>
