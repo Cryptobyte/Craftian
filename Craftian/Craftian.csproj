@@ -185,9 +185,6 @@
   <ItemGroup>
     <None Include="Resources\Icon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="License.txt" />
-  </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
